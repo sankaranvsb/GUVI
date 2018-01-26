@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main(void) 
 {
-int a[5],i,j,temp;
+int a[9],k,j,temp;
 for(i=0;i<3;i++)
 {
 scanf("%d",&a[i]);
 }
-for(i=0;i<3;i++)
+for(k=0;i<3;i++)
 {
-for(j=i+1;j<3;j++)
+for(j=k+1;j<3;j++)
 {
-	if(a[i]>a[j])
+	if(a[k]>a[j])
 {
-	temp=a[i];
-            a[i]=a[j];
+	temp=a[k];
+            a[k]=a[j];
             a[j]=temp;
 }}}
 
