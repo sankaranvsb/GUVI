@@ -3,8 +3,7 @@
 int main()
 {int c,d;
 char a[10],b[10];
-gets(a);
-gets(b);
+scanf("%s%s",&a,&b);
 c=strlen(a);
 d=strlen(b);
 if(c>d)
@@ -20,5 +19,5 @@ else
 printf("%s",a);
 printf("%s",b);
 }
-return 0'
+return 0;
 }
