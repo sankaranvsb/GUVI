@@ -4,10 +4,9 @@ int main()
 {
 int n,count=0;
 scanf("%d",&n);
-
 for(int i=1;i<1000;i++)
 { 
-if(a%i==0)
+if(n%i==0)
 {
 count++;
 }
