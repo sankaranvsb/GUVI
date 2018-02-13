@@ -2,17 +2,17 @@
 #include<string.h>
 int main()
 {
-int n,count=0,k;
+int n,count=0;
 scanf("%d",&n);
-n=k;
-for(int i=2;i<n;i++)
+
+for(int i=1;i<1000;i++)
 { 
-if(i%2==0)
+if(a%i==0)
 {
 count++;
 }
 }
-if(n==k)
+if(count==2)
 {
 printf("prime");
 }
