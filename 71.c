@@ -7,7 +7,7 @@ scanf("%s",&a);
 strcpy(b,a);
 strrev(a);
 no=strcmp(a,b);
-if(no==1)
+if(no==0)
 {
 printf("palindrome");
 }
