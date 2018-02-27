@@ -5,7 +5,7 @@ printf("enter the no");
 scanf("%d",&no);
 printf("\nenter the limit");
 scanf("%d\t%d",&a,&b);
-for(int i=a;i<=b;i++)
+for(int i=a;i<b;i++)
 {
 if(i==no)
 {
